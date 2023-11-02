@@ -1,0 +1,22 @@
+/* ComponentStyles.css */
+
+/* Style the select element itself */
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    /* border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    color: #333; */
+    /* Add other styles as needed */
+  }
+  
+  /* Style the pseudo-element for the dropdown arrow */
+  .custom-select::after {
+    
+    color: #ff0000; /* Set the color to your desired color */
+    /* Add other styles as needed */
+  }
+  
